@@ -4,7 +4,8 @@
 	"version": "0.1.0",
 	"main": "index.json",
 	"files": [
-		"index.json"
+		"index.json",
+		"full.json"
 	],
 	"keywords": [
 		"vbb",
@@ -19,5 +20,16 @@
 	"license": "ISC",
 	"engines": {
 		"node": ">=6"
+	},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1",
+		"vbb-lines": "^3.3.0",
+		"vbb-stations": "^5.3.0"
+	},
+	"scripts": {
+		"build": "node build.js",
+		"test": "node test.js | tap-min",
+		"prepublishOnly": "npm test"
 	}
 }
