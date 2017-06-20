@@ -1,0 +1,23 @@
+{
+	"name": "vbb-stations-connected-to",
+	"description": "Get all stations connected to a station.",
+	"version": "0.1.0",
+	"main": "index.json",
+	"files": [
+		"index.json"
+	],
+	"keywords": [
+		"vbb",
+		"graph",
+		"public transport",
+		"berlin"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/vbb-stations-connected-to",
+	"repository": "derhuerst/vbb-stations-connected-to",
+	"bugs": "https://github.com/derhuerst/vbb-stations-connected-to/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=6"
+	}
+}
