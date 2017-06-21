@@ -36,6 +36,7 @@ lines('all')
 				console.error('unkown station for stop ' + variant[i + 1])
 				continue
 			}
+			if (from === to) continue // wat
 
 			const neighbors = full[from] || (full[from] = {})
 			const lines = neighbors[to] || (neighbors[to] = [])
