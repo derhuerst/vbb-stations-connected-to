@@ -25,15 +25,15 @@ lines('all')
 .on('data', (line) => {
 	for (let variant of line.variants) {
 		// for (let stopId of variant) {
-		for (let i = 0; i < (variant.length - 1); i++) {
-			const from = stationOf[variant[i]]
+		for (let i = 0; i < (variant.stops.length - 1); i++) {
+			const from = stationOf[variant.stops[i]]
 			if (!from) {
-				console.error('unkown station for stop ' + variant[i])
+				console.error('unkown station for stop ' + variant.stops[i])
 				continue
 			}
-			const to = stationOf[variant[i + 1]]
+			const to = stationOf[variant.stops[i + 1]]
 			if (!to) {
-				console.error('unkown station for stop ' + variant[i + 1])
+				console.error('unkown station for stop ' + variant.stops[i + 1])
 				continue
 			}
 			if (from === to) continue // wat

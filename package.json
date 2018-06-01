@@ -24,7 +24,7 @@
 	"devDependencies": {
 		"tap-min": "^1.2.1",
 		"tape": "^4.6.3",
-		"vbb-lines": "^3.3.0",
+		"vbb-lines": "^4.1.0",
 		"vbb-stations": "^6.2.0"
 	},
 	"scripts": {
