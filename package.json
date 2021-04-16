@@ -25,7 +25,7 @@
 		"tap-min": "^2.0.0",
 		"tape": "^5.0.0",
 		"vbb-lines": "^4.1.0",
-		"vbb-stations": "^7.1.0"
+		"vbb-stations": "^7.3.1"
 	},
 	"scripts": {
 		"build": "node build.js",
