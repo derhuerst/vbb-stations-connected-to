@@ -3,7 +3,6 @@
 **Get all stations connected to a station.**
 
 [![npm version](https://img.shields.io/npm/v/vbb-stations-connected-to.svg)](https://www.npmjs.com/package/vbb-stations-connected-to)
-[![build status](https://img.shields.io/travis/derhuerst/vbb-stations-connected-to.svg)](https://travis-ci.org/derhuerst/vbb-stations-connected-to)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-stations-connected-to.svg)
 [![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
 [![chat with me on Twitter](https://img.shields.io/badge/chat%20with%20me-on%20Twitter-1da1f2.svg)](https://twitter.com/derhuerst)
