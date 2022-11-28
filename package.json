@@ -19,13 +19,13 @@
 	"bugs": "https://github.com/derhuerst/vbb-stations-connected-to/issues",
 	"license": "ISC",
 	"engines": {
-		"node": ">=8"
+		"node": ">=16"
 	},
 	"devDependencies": {
 		"tap-min": "^2.0.0",
 		"tape": "^5.0.0",
-		"vbb-lines": "^4.1.0",
-		"vbb-stations": "^7.3.1"
+		"vbb-lines": "^5.3.0",
+		"vbb-stations": "^8.3.1"
 	},
 	"scripts": {
 		"build": "node build.js",
